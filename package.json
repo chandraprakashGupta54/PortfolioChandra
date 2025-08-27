@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/chandraprakashGupta54/Chandraprakash-Gupta#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.19.2"
   },
   "engines": {
     "node": ">=18"
