@@ -38,6 +38,3 @@
 - 🐙 [GitHub](https://github.com/chandraprakashGupta54)  
 - 📧 Email: yourmail@gmail.com  
 
----
-
-✨ _“Code. Create. Contribute.”_ ✨
