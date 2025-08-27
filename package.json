@@ -1,10 +1,10 @@
 {
   "name": "chand5055",
   "version": "1.0.0",
-  "description": "portfolio",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+   "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,6 @@
   },
   "homepage": "https://github.com/chandraprakashGupta54/Chandraprakash-Gupta#readme",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "engines": {
-    "node": ">=18"
+    "express": "^5.1.0"
   }
 }
