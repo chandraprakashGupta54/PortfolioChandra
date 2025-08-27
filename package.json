@@ -4,7 +4,7 @@
   "description": "portfolio",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/chandraprakashGupta54/Chandraprakash-Gupta#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

@@ -2,85 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Chandra</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Chandra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="navbarContainer">
-        <h1 class="navHead">Chandraprakash</h1>
-        <ul class="navList">
-        <li class="navItem"><a href="/home">Home</a></li>
-            <li class="navItem"><a href="/about">About</a></li>
-            <li class="navItem"><a href="/project">Project</a></li>
-            <li class="navItem"><a href="/achivement">Achivement</a></li>
-            
-        </ul>
-    </div>
-<!-- Achivement -->
+  <!-- Navbar -->
+  <div class="navbarContainer">
+    <h1 class="navHead">Chandraprakash</h1>
+    <ul class="navList">
+      <li class="navItem"><a href="/home">Home</a></li>
+      <li class="navItem"><a href="/about">About</a></li>
+      <li class="navItem"><a href="/project">Project</a></li>
+      <li class="navItem"><a href="/achivement">Achivement</a></li>
 
-<!-- Achievements Section -->
-<section class="achievements" id="achievements">
-  <h2 class="section-title">🏆 Achievements</h2>
-  <div class="achievement-container">
+    </ul>
+  </div>
+  <!-- Achivement -->
 
-    <div class="achievement-card">
-      <h3>Hackathon Participation</h3>
-      <p>Selected and built innovative solutions at <b>Digigreen Hackathon 2025</b> with a sustainability theme.</p>
-    </div>
+  <!-- Achievements Section -->
+  <section class="achievements" id="achievements">
+    <h2 class="section-title">🏆 Achievements</h2>
+    <div class="achievement-container">
 
-    <div class="achievement-card">
-      <h3>Academic Performance</h3>
-      <p>Maintained <b>8.56 CGPA</b> throughout BSc-IT, showcasing strong academic consistency.</p>
-    </div>
+      <div class="achievement-card">
+        <h3>Hackathon Participation</h3>
+        <p>Selected and built innovative solutions at <b>Digigreen Hackathon 2025</b> with a sustainability theme.</p>
+      </div>
 
-    <div class="achievement-card">
-      <h3>Projects Completed</h3>
-      <p>Developed real-world web apps like <b>FoodLove</b> and <b>EcoBridge</b>, enhancing technical expertise.</p>
-    </div>
+      <div class="achievement-card">
+        <h3>Academic Performance</h3>
+        <p>Maintained <b>8.56 CGPA</b> throughout BSc-IT, showcasing strong academic consistency.</p>
+      </div>
 
-    <div class="achievement-card">
-      <h3>Internship Experience</h3>
-      <p>Worked as a <b>Web Development Intern</b>, improving skills in HTML, CSS, JS, Node.js, and MongoDB.</p>
+      <div class="achievement-card">
+        <h3>Projects Completed</h3>
+        <p>Developed real-world web apps like <b>FoodLove</b> and <b>EcoBridge</b>, enhancing technical expertise.</p>
+      </div>
+
+      <div class="achievement-card">
+        <h3>Internship Experience</h3>
+        <p>Worked as a <b>Web Development Intern</b>, improving skills in HTML, CSS, JS, Node.js, and MongoDB.</p>
+      </div>
+
     </div>
+  </section>
+
+  <!-- Footer  -->
+  <div id="footers">
+    <div class="socailmedia">
+      <div class="linkedin"><a href="https://www.linkedin.com/in/chandraprakash-gupta-955581349"><img
+            src="/assest/linkedin.png" alt="linkedin" class="links"></a></div>
+      <div class="github"><a href="https://github.com/chandraprakashGupta54"><img src="/assest/github.png" alt="github"
+            class="links"></a></div>
+      <div class="email"><a href="mailto:guptachandraprakash54@gmail.com"><img src="/assest/gmail.png" alt="email"
+            class="links"></a></div>
+    </div><br><br>
+    <h3>© 2025 Chandraprakash Gupta | All rights reserved</h3>
 
   </div>
-</section>
 
-<!-- Footer  -->
-    <div id="footers">
-        <div class="socailmedia">
-            <div class="linkedin"><a href="https://www.linkedin.com/in/chandraprakash-gupta-955581349"><img
-                        src="/assest/linkedin.png" alt="linkedin" class="links"></a></div>
-            <div class="github"><a href="https://github.com/chandraprakashGupta54"><img src="/assest/github.png"
-                        alt="github" class="links"></a></div>
-            <div class="email"><a href="mailto:guptachandraprakash54@gmail.com"><img src="/assest/gmail.png" alt="email"
-                        class="links"></a></div>
-        </div><br><br>
-        <h3>© 2025 Chandraprakash Gupta | All rights reserved</h3>
+  <script href="view/app.js">
 
-    </div>
+    document.addEventListener("scroll", function () {
+      const cards = document.querySelectorAll(".achievement-card");
+      const triggerBottom = window.innerHeight * 0.85;
 
-    <script href="view/app.js">
-        
-document.addEventListener("scroll", function () {
-  const cards = document.querySelectorAll(".achievement-card");
-  const triggerBottom = window.innerHeight * 0.85;
+      cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
 
-  cards.forEach(card => {
-    const cardTop = card.getBoundingClientRect().top;
+        if (cardTop < triggerBottom) {
+          card.classList.add("show");
+        }
+      });
+    });
 
-    if (cardTop < triggerBottom) {
-      card.classList.add("show");
-    }
-  });
-});
-
-    </script>
+  </script>
 </body>
 
 </html>
